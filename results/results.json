@@ -1,0 +1,113 @@
+{
+ "novelty": 80,
+ "bench": {
+  "parallel_avg_ms": 0.32236316666474824,
+  "parallel_p95_ms": 0.37735500001190303,
+  "parallel_max_ms": 0.37735500001190303,
+  "serial_ms_per_candidate": 3.3724850833323217,
+  "full_paper_ms": 2.0827644500002407,
+  "full_total_ms": 41.655289000004814
+ },
+ "scale": [
+  {
+   "key": "geometry_coordinate_distance",
+   "space": 288576432144018,
+   "p": 1.7326108885221047e-05,
+   "pass": true
+  },
+  {
+   "key": "projectile_composite",
+   "space": 1848600048,
+   "p": 0.9331111118775182,
+   "pass": false
+  },
+  {
+   "key": "arithmetic_progression_atomic",
+   "space": 84105021,
+   "p": 1.0,
+   "pass": false
+  },
+  {
+   "key": "geometry_triangle_heron",
+   "space": 64481201,
+   "p": 1.0,
+   "pass": false
+  },
+  {
+   "key": "projectile_atomic",
+   "space": 38512501,
+   "p": 1.0,
+   "pass": false
+  },
+  {
+   "key": "quadratic_atomic",
+   "space": 26568601,
+   "p": 1.0,
+   "pass": false
+  },
+  {
+   "key": "geometry_circle_sector",
+   "space": 16824701,
+   "p": 1.0,
+   "pass": false
+  },
+  {
+   "key": "snell_composite",
+   "space": 2430486,
+   "p": 1.0,
+   "pass": false
+  },
+  {
+   "key": "snell_atomic",
+   "space": 405081,
+   "p": 1.0,
+   "pass": false
+  }
+ ],
+ "samples": {
+  "DEL-014": [
+   {
+    "qno": 1,
+    "label": "Applied-Math-Algebra",
+    "text": "Solve a*x^2 + b*x + c = 0 for the positive root: a=1.94, b=3.4, c=-1.13."
+   },
+   {
+    "qno": 2,
+    "label": "Applied-Math-Geometry",
+    "text": "Point P is at (3.01, 6.1) and Station B is at (3.81, -6.65) on a coordinate plane. Find the distance between them."
+   },
+   {
+    "qno": 3,
+    "label": "Applied-Math-Geometry",
+    "text": "A triangle has sides a=8.7, b=10.32, c=9.52 (cm). Find its area."
+   },
+   {
+    "qno": 4,
+    "label": "Physics-Optics",
+    "text": "Light travelling through air hits a plastic slab at an angle of 23.77 degrees (n=1.2). Find the refraction angle theta_2."
+   }
+  ],
+  "MUM-007": [
+   {
+    "qno": 1,
+    "label": "Applied-Math-Algebra",
+    "text": "Solve a*x^2 + b*x + c = 0 for the positive root: a=0.78, b=6.77, c=-0.95."
+   },
+   {
+    "qno": 2,
+    "label": "Applied-Math-Geometry",
+    "text": "Point P is at (8.33, -5.53) and Station B is at (-7.64, 5.31) on a coordinate plane. Find the distance between them."
+   },
+   {
+    "qno": 3,
+    "label": "Applied-Math-Geometry",
+    "text": "A triangle has sides a=10.3, b=11.87, c=11.79 (cm). Find its area."
+   },
+   {
+    "qno": 4,
+    "label": "Physics-Optics",
+    "text": "A beam of light in air meets a water surface at 62.12 degrees; its index is n=1.6. Find theta_2."
+   }
+  ]
+ }
+}
